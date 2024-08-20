@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.form {
+  margin: 20px auto; /* Adjusted for centering */padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px0px10pxrgba(0, 0, 0, 0.1);
+  width: 50%; /* Set a specific width and use margin auto for horizontal centering */box-sizing: border-box; /* Ensures padding doesn't affect the width */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-group {
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-grouplabel {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form-groupinput {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px20px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block; /* Makes the button block level for easier centering */margin: 0 auto; /* Centers the button within its container */
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.employee-list {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0px0px10pxrgba(0, 0, 0, 0.1);
+  width: 80%; /* Optional: adjust width as needed */margin: 20px auto; /* Centers the employee list */
+}
+
+.employee-listh1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.employee-listul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-listli {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px0px5pxrgba(0, 0, 0, 0.1);
+}
+
+.employee-listlidiv {
+  margin-bottom: 5px;
 }
